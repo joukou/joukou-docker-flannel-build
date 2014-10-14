@@ -17,6 +17,7 @@ MAINTAINER Isaac Johnston <isaac.johnston@joukou.com>
 WORKDIR /tmp
 RUN git clone https://github.com/coreos/flannel.git && \
     cd flannel && \
+    git checkout v0.1.0 && \
     ./build && \
     mkdir -p /opt/bin && \
     cp bin/flanneld /opt/bin/
