@@ -21,5 +21,3 @@ Copyright &copy; 2014 Joukou Ltd.
 
 Build Flannel in a Docker Container is under the Apache 2.0 license. See the
 [LICENSE](LICENSE) file for details.
-
-[![Analytics](https://ga-beacon.appspot.com/UA-41911221-2/joukou-docker-flannel-build/readme)](https://github.com/igrigorik/ga-beacon)
