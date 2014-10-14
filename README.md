@@ -1,6 +1,8 @@
 Build Flannel in a Docker Container
 ===================================
 
+This is NOT an official build, once the [Flannel project](https://github.com/coreos/flannel) has binary releases this repository will likely be deleted.
+
 ## Usage
 
 `docker -v /opt:/opt quay.io/joukou/flannel-build`
@@ -9,7 +11,7 @@ Build Flannel in a Docker Container
 
 For CoreOS deployments it may be easier to use a pre-built binary; e.g.,
 
-`wget https://github.com/joukou/joukou-docker-flannel-build/releases/download/git%2B9c63c4e/flanneld`
+`wget https://github.com/joukou/joukou-docker-flannel-build/releases/download/v0.1.0/flanneld-linux-amd64`
 
 ## Contributors
 
